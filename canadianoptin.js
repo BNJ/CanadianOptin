@@ -1,0 +1,1 @@
+function CanadianOptin(){var e=$(this);var t=e.val();$.each(disallowedprepop,function(e,n){if(t==n){$("input[name="+optinfield+"]").removeAttr("checked")}})}MktoForms2.whenReady(function(e){$("select[name="+countryfield+"]").on("change",CanadianOptin).trigger("change")})
